@@ -207,3 +207,92 @@ footer{
 .sociallinks .socialicons img{
     max-width: 35px;
 }
+
+
+/* ________________ENTRENAMIENTO____________________ */
+
+.metodos{
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+}
+.metodos div
+{
+    height: auto;
+    width: 35%;
+}
+.metodos h3{
+    font-family:'Roboto Condensed', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    font-style: italic;
+    margin-top: 1rem;
+}
+.metodos p{
+    margin: 0 1rem 1rem 0;
+}
+
+.elementos{
+    background-color:#f1f1f1;
+    height: 1000px;
+    background-size: cover;
+}
+
+.merch{
+    display: grid;
+    grid-template-columns: repeat(3, 250px);
+    grid-template-rows:  repeat(3, 250px);
+    grid-column-gap: 2%;
+    grid-row-gap:4%;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.merch1,
+.merch2,
+.merch3,
+.merch4,
+.merch5,
+.merch6,
+.merch7,
+.merch8,
+.merch9{
+    background-color: #fff;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    border-radius: 2rem 1rem;  
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center; 
+    
+}
+
+.merch1{
+    background-image: url('../img/merch/remerah.png');
+}
+.merch2{
+    background-image: url('../img/merch/remeram.png');
+}
+.merch3{
+    background-image: url('../img/merch/remeralargah.png');
+}
+.merch4{
+    background-image: url('../img/merch/botella.png');
+}
+.merch5{
+    background-image: url('../img/merch/kettlebel.png');
+}
+.merch6{
+    background-image: url('../img/merch/remerah.png');
+}
+.merch7{
+    background-image: url('../img/merch/remerah.png');
+}
+.merch8{
+    background-image: url('../img/merch/remerah.png');
+}
+.merch9{
+    background-image: url('../img/merch/remerah.png');
+}
+
+
+/* ________________FIN ENTRENAMIENTO____________________ */
